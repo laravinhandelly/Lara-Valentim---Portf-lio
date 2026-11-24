@@ -1,0 +1,465 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Lara Valentim. Conheça minha trajetória, meus conhecimentos e projetos em desenvolvimento de sistemas.">
+
+    <title>Lara Valentim — Portfólio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header class="cabecalho">
+        <nav class="navbar">
+
+            <a href="#inicio" class="logo">lara<span>.</span></a>
+
+            <button class="menu-toggle" id="menu-toggle"
+                type="button" aria-label="Abrir menu" aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#aprendizado">Conhecimentos</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+
+            <button id="tema-btn" type="button"
+                aria-label="Ativar tema escuro">☾</button>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- INÍCIO -->
+        <section id="inicio" class="inicio">
+
+            <div class="inicio-conteudo">
+
+                <span class="identificacao">
+                    <span class="ponto"></span>
+                    DESENVOLVIMENTO DE SISTEMAS
+                </span>
+
+                <h1>
+                    Oi, eu sou a <em>Lara.</em>
+                </h1>
+
+                <h2>
+                    Tecnologia, desenvolvimento
+                    e vontade de aprender.
+                </h2>
+
+                <p>
+                    Estudo Desenvolvimento de Sistemas e tenho
+                    experiência com tecnologias SAP e desenvolvimento
+                    de aplicações. Gosto de entender como as coisas
+                    funcionam e de colocar o conhecimento em prática.
+                </p>
+
+                <div class="inicio-acoes">
+                    <a href="#projetos" class="botao-principal">
+                        Conheça meus projetos <span>↗</span>
+                    </a>
+
+                    <a href="#sobre" class="link-simples">
+                        Um pouco sobre mim ↓
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="inicio-lateral">
+
+                <div class="codigo-decorativo">
+                    <span class="codigo-linha">01</span>
+                    <span class="codigo-texto">&lt;hello_world /&gt;</span>
+                    <span class="codigo-linha">02</span>
+                    <span class="codigo-texto">learning_by_doing( )</span>
+                    <span class="codigo-linha">03</span>
+                    <span class="codigo-texto">const future = "dev";</span>
+                </div>
+
+                <div class="assinatura">
+                    <span>curiosa por natureza,</span>
+                    <strong>desenvolvedora em construção.</strong>
+                </div>
+
+                <span class="numero-decorativo">01</span>
+
+            </div>
+
+        </section>
+
+        <!-- SOBRE MIM -->
+        <section id="sobre" class="sobre">
+
+            <div class="cabecalho-secao">
+                <span class="numero-secao">01 / SOBRE MIM</span>
+                <h2>Um pouco da minha <em>história.</em></h2>
+            </div>
+
+            <div class="sobre-grid">
+
+                <div class="sobre-texto">
+
+                    <p class="texto-destaque">
+                        Minha trajetória na tecnologia começou
+                        com a curiosidade de descobrir como os
+                        sistemas funcionam e como são construídos.
+                    </p>
+
+                    <p>
+                        Atualmente, sou estudante de Técnico em
+                        Desenvolvimento de Sistemas pelo SENAI.
+                        Durante essa jornada, venho explorando
+                        diferentes áreas da programação, desde
+                        desenvolvimento web e banco de dados até
+                        soluções no ecossistema SAP.
+                    </p>
+
+                    <p>
+                        Também tenho contato com ABAP, SAPUI5,
+                        Fiori e serviços OData, participando de
+                        projetos que me aproximam dos desafios
+                        reais do desenvolvimento de software.
+                    </p>
+
+                    <p>
+                        Gosto de pesquisar, experimentar e aprender
+                        coisas novas. Sei que ainda existe muito
+                        pela frente, e é justamente isso que torna
+                        essa área tão interessante para mim.
+                    </p>
+
+                </div>
+
+                <aside class="sobre-nota">
+
+                    <span class="nota-etiqueta">ANOTAÇÃO Nº 001</span>
+
+                    <div class="nota-simbolo">✳</div>
+
+                    <h3>O que me move?</h3>
+
+                    <p>
+                        A curiosidade de aprender algo novo
+                        e a satisfação de conseguir fazer
+                        funcionar aquilo que antes parecia difícil.
+                    </p>
+
+                    <span class="nota-assinatura">— Lara</span>
+
+                </aside>
+
+            </div>
+
+        </section>
+
+        <!-- CONHECIMENTOS -->
+        <section id="aprendizado" class="aprendizado">
+
+            <div class="cabecalho-secao">
+                <span class="numero-secao">02 / CONHECIMENTOS</span>
+                <h2>O que venho <em>aprendendo.</em></h2>
+
+                <p class="descricao-secao">
+                    Tecnologias e ferramentas com as quais
+                    tenho estudado e desenvolvido projetos.
+                </p>
+            </div>
+
+            <div class="conhecimentos-lista">
+
+                <article class="conhecimento-item">
+                    <span class="conhecimento-numero">01</span>
+                    <div>
+                        <h3>Desenvolvimento web</h3>
+                        <p>HTML, CSS e JavaScript</p>
+                    </div>
+                    <span class="conhecimento-seta">↗</span>
+                </article>
+
+                <article class="conhecimento-item">
+                    <span class="conhecimento-numero">02</span>
+                    <div>
+                        <h3>Programação</h3>
+                        <p>Python e ABAP</p>
+                    </div>
+                    <span class="conhecimento-seta">↗</span>
+                </article>
+
+                <article class="conhecimento-item">
+                    <span class="conhecimento-numero">03</span>
+                    <div>
+                        <h3>Ecossistema SAP</h3>
+                        <p>SAPUI5, Fiori e OData</p>
+                    </div>
+                    <span class="conhecimento-seta">↗</span>
+                </article>
+
+                <article class="conhecimento-item">
+                    <span class="conhecimento-numero">04</span>
+                    <div>
+                        <h3>Banco de dados</h3>
+                        <p>SQL e modelagem de dados</p>
+                    </div>
+                    <span class="conhecimento-seta">↗</span>
+                </article>
+
+                <article class="conhecimento-item">
+                    <span class="conhecimento-numero">05</span>
+                    <div>
+                        <h3>Automação e tecnologia</h3>
+                        <p>ESP32 e Internet das Coisas (IoT)</p>
+                    </div>
+                    <span class="conhecimento-seta">↗</span>
+                </article>
+
+            </div>
+
+            <div class="aprendendo-agora">
+                <span class="ponto"></span>
+                <p>
+                    <strong>Atualmente explorando:</strong>
+                    desenvolvimento de aplicações, serviços OData,
+                    integração de sistemas e novas possibilidades
+                    dentro do universo SAP.
+                </p>
+            </div>
+
+        </section>
+
+        <!-- PROJETOS -->
+        <section id="projetos" class="projetos">
+
+            <div class="cabecalho-secao">
+                <span class="numero-secao">03 / PROJETOS</span>
+                <h2>Algumas coisas que já <em>desenvolvi.</em></h2>
+
+                <p class="descricao-secao">
+                    Projetos que fazem parte da minha experiência
+                    e do meu aprendizado em desenvolvimento.
+                </p>
+            </div>
+
+            <div class="projetos-lista">
+
+                <article class="projeto-item">
+
+                    <div class="projeto-numero">01</div>
+
+                    <div class="projeto-conteudo">
+                        <span class="projeto-categoria">SAP / DESENVOLVIMENTO</span>
+
+                        <h3>Ordem para Pagamento</h3>
+
+                        <p>
+                            Projeto de desenvolvimento e melhorias
+                            relacionado ao processo de Ordem para
+                            Pagamento no ambiente SAP.
+                        </p>
+
+                        <div class="projeto-tags">
+                            <span>SAP</span>
+                            <span>ABAP</span>
+                            <span>Fiori</span>
+                            <span>OData</span>
+                        </div>
+
+                        <a href="https://github.com/laravinhandelly/ordem-para-pagamento_c_melhorias"
+                            target="_blank" rel="noopener noreferrer">
+                            Explorar repositório <span>↗</span>
+                        </a>
+                    </div>
+
+                    <div class="projeto-visual visual-vinho">
+                        <span>01</span>
+                        <strong>ORDEM<br>PARA<br>PAGAMENTO</strong>
+                        <small>DESENVOLVIMENTO SAP</small>
+                    </div>
+
+                </article>
+
+                <article class="projeto-item">
+
+                    <div class="projeto-numero">02</div>
+
+                    <div class="projeto-conteudo">
+                        <span class="projeto-categoria">SAPUI5 / APLICAÇÃO</span>
+
+                        <h3>App Inspetor e Empresa</h3>
+
+                        <p>
+                            Aplicação para gerenciamento de informações
+                            de empresas, inspetores e atribuições,
+                            com foco na organização e consulta dos dados.
+                        </p>
+
+                        <div class="projeto-tags">
+                            <span>SAPUI5</span>
+                            <span>JavaScript</span>
+                            <span>OData</span>
+                            <span>ABAP</span>
+                        </div>
+
+                        <a href="https://github.com/laravinhandelly/App_Inspetor_Empresa"
+                            target="_blank" rel="noopener noreferrer">
+                            Explorar repositório <span>↗</span>
+                        </a>
+                    </div>
+
+                    <div class="projeto-visual visual-salvia">
+                        <span>02</span>
+                        <strong>INSPETOR<br>& EMPRESA</strong>
+                        <small>APLICAÇÃO SAPUI5</small>
+                    </div>
+
+                </article>
+
+                <article class="projeto-item">
+
+                    <div class="projeto-numero">03</div>
+
+                    <div class="projeto-conteudo">
+                        <span class="projeto-categoria">SAP / UOM</span>
+
+                        <h3>DEVLMS — APP UOM</h3>
+
+                        <p>
+                            Projeto identificado pelo contexto de
+                            unidades de medida (Unit of Measure).
+                            Consulte o repositório para conhecer
+                            os detalhes da implementação.
+                        </p>
+
+                        <div class="projeto-tags">
+                            <span>SAP</span>
+                            <span>UOM</span>
+                        </div>
+
+                        <a href="https://github.com/laravinhandelly/DEVLMS-APP-UOM"
+                            target="_blank" rel="noopener noreferrer">
+                            Explorar repositório <span>↗</span>
+                        </a>
+                    </div>
+
+                    <div class="projeto-visual visual-creme">
+                        <span>03</span>
+                        <strong>UNIT OF<br>MEASURE</strong>
+                        <small>DEVLMS / UOM</small>
+                    </div>
+
+                </article>
+
+            </div>
+
+            <a href="https://github.com/laravinhandelly"
+                target="_blank" rel="noopener noreferrer"
+                class="todos-projetos">
+                Mais projetos no GitHub ↗
+            </a>
+
+        </section>
+
+        <!-- CONTATO -->
+        <section id="contato" class="contato">
+
+            <div class="contato-cabecalho">
+                <span class="numero-secao">04 / CONTATO</span>
+
+                <h2>
+                    Vamos trocar uma <em>ideia?</em>
+                </h2>
+
+                <p>
+                    Estou aberta a conhecer pessoas, trocar
+                    conhecimentos e descobrir novas oportunidades
+                    na área de tecnologia.
+                </p>
+            </div>
+
+            <div class="contato-grid">
+
+                <div class="contato-links">
+
+                    <p>Você também pode me encontrar por aqui:</p>
+
+                    <a href="https://github.com/laravinhandelly"
+                        target="_blank" rel="noopener noreferrer">
+                        GitHub <span>↗</span>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/lara-silva-b47648207"
+                        target="_blank" rel="noopener noreferrer">
+                        LinkedIn <span>↗</span>
+                    </a>
+
+                </div>
+
+                <form id="form-contato">
+
+                    <div class="campo">
+                        <label for="nome">Seu nome</label>
+                        <input type="text" id="nome" name="nome"
+                            placeholder="Como posso te chamar?" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="email">Seu e-mail</label>
+                        <input type="email" id="email" name="email"
+                            placeholder="seuemail@exemplo.com" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="mensagem">Sua mensagem</label>
+                        <textarea id="mensagem" name="mensagem"
+                            placeholder="Escreva sua mensagem..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="botao-enviar">
+                        Enviar mensagem <span>↗</span>
+                    </button>
+
+                    <p id="mensagem-status" role="status"
+                        aria-live="polite"></p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+
+        <a href="#inicio" class="logo">lara<span>.</span></a>
+
+        <p>Feito por mim, com curiosidade e algumas linhas de código.</p>
+
+        <span>© 2026 Lara Valentim</span>
+
+        <a href="#inicio" class="voltar-topo">Voltar ao início ↑</a>
+
+    </footer>
+
+</body>
+</html>
